@@ -12,6 +12,11 @@ public class Main {
     public static void main(String[] args) {
         Solution solution = new Solution();
         int result = solution.solution1(1,2);
+
+        Solution2 solution2 = new Solution2();
+        int result2 = solution.solution1(1,2);
+
         System.out.println(result);
+        System.out.println(result2);
     }
 }
