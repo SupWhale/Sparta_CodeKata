@@ -23,7 +23,10 @@ public class Main {
         //int result = solution4.solution(4,2);
 
         Solution5 solution5 = new Solution5();
-        int result = solution5.solution(40);
+        //int result = solution5.solution(40);
+
+        Solution6 solution6 = new Solution6();
+        int result = solution6.solution(40, 70);
 
 
         System.out.println(result);
