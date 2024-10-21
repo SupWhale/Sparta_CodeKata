@@ -17,7 +17,11 @@ public class Main {
         //int result2 = solution.solution1(1,2);
 
         Solution3 solution3 = new Solution3();
-        int result = solution.solution1(4,2);
+        //int result = solution.solution1(4,2);
+
+        Solution4 solution4 = new Solution4();
+        int result = solution4.solution(4,2);
+
 
         System.out.println(result);
 
