@@ -20,7 +20,10 @@ public class Main {
         //int result = solution.solution1(4,2);
 
         Solution4 solution4 = new Solution4();
-        int result = solution4.solution(4,2);
+        //int result = solution4.solution(4,2);
+
+        Solution5 solution5 = new Solution5();
+        int result = solution5.solution(40);
 
 
         System.out.println(result);
