@@ -1,3 +1,7 @@
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
 //TIP 코드를 <b>실행</b>하려면 <shortcut actionId="Run"/>을(를) 누르거나
 // 에디터 여백에 있는 <icon src="AllIcons.Actions.Execute"/> 아이콘을 클릭하세요.
 public class Main {
@@ -26,7 +30,17 @@ public class Main {
         //int result = solution5.solution(40);
 
         Solution6 solution6 = new Solution6();
-        int result = solution6.solution(40, 70);
+        //int result = solution6.solution(40, 70);
+
+        //int result = 0;
+
+        int[] asd = {1, 2, 1, 3, 1, 4, 1, 2};
+
+        Solution99 solution99 = new Solution99();
+        //int result = solution99.solution(asd);
+
+        Solution7 solution7 = new Solution7();
+        int result = solution7.solution(3, 2);
 
 
         System.out.println(result);
