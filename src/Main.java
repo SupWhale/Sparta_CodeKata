@@ -40,8 +40,10 @@ public class Main {
         //int result = solution99.solution(asd);
 
         Solution7 solution7 = new Solution7();
-        int result = solution7.solution(3, 2);
+        //int result = solution7.solution(3, 2);
 
+        Solution8 solution8 = new Solution8();
+        int result = solution8.solution(90);
 
         System.out.println(result);
 
