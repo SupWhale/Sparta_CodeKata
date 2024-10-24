@@ -43,7 +43,10 @@ public class Main {
         //int result = solution7.solution(3, 2);
 
         Solution8 solution8 = new Solution8();
-        int result = solution8.solution(90);
+        //int result = solution8.solution(90);
+
+        Solution9 solution9 = new Solution9();
+        int result = solution9.solution(90);
 
         System.out.println(result);
 
