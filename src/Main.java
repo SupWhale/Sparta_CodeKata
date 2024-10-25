@@ -46,7 +46,12 @@ public class Main {
         //int result = solution8.solution(90);
 
         Solution9 solution9 = new Solution9();
-        int result = solution9.solution(90);
+        //int result = solution9.solution(90);
+
+        Solution10 solution10 = new Solution10();
+        int[] num = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        double result = solution10.solution(num);
+
 
         System.out.println(result);
 
