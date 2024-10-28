@@ -56,7 +56,10 @@ public class Main {
         // result = solution11.solution11(4);
 
         Solution12 solution12 = new Solution12();
-        double result = solution12.solution12(num);
+        //double result = solution12.solution12(num);
+
+        Solution13 solution13 = new Solution13();
+        int result = solution13.solution13(1234);
 
         System.out.println(result);
 
