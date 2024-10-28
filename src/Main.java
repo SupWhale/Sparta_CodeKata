@@ -50,7 +50,10 @@ public class Main {
 
         Solution10 solution10 = new Solution10();
         int[] num = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        double result = solution10.solution(num);
+        //double result = solution10.solution(num);
+
+        Solution11 solution11 = new Solution11();
+        String result = solution11.solution11(4);
 
 
         System.out.println(result);
