@@ -71,9 +71,14 @@ public class Main {
         //long[] result = solution16.solution16(1234, 12);
 
         Solution17 solution17 = new Solution17();
-        int[] result = solution17.solution17(1234);
+        //int[] result = solution17.solution17(1234);
 
-        System.out.println(result[1]);
+        Solution20 solution20 = new Solution20();
+
+        long result = solution20.solution(118372);
+
+
+        System.out.println(result);
 
     }
 }
