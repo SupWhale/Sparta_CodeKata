@@ -74,9 +74,10 @@ public class Main {
         //int[] result = solution17.solution17(1234);
 
         Solution20 solution20 = new Solution20();
+        Solution21 solution21 = new Solution21();
 
-        long result = solution20.solution(118372);
-
+        //long result = solution20.solution(118372);
+        boolean result = solution21.solution(12312);
 
         System.out.println(result);
 
