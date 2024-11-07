@@ -78,8 +78,11 @@ public class Main {
         Solution21 solution21 = new Solution21();
 
         Solution22 solution22 = new Solution22();
-        long result = solution22.solution22(118372, 12313);
+        //long result = solution22.solution22(118372, 12313);
         //boolean result = solution21.solution(12312);
+
+        Solution23 solution23 = new Solution23();
+        int result = solution23.solution23(118372);
 
         System.out.println(result);
 
